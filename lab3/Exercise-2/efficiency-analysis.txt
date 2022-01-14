@@ -1,0 +1,10 @@
+1. The Find Function behaved more effectively when the element was present in the array.
+By looking at the graphs, the green line (not present) was higher than the red line (present) at every point.
+This implies that the element not present takes longer than present for every size of the array.
+
+2. The bin-search function behaved more effectively when the element was present in the array.
+By looking at the graph, the red line (present) was momentarily higher than the green (not present) at the beginning.
+This implies that the time for not present takes slightly longer than present.
+
+3. The find time complexity is O(n) and the bin-search is Log(n). The binary search graph was spiky and difficult to observe due to the speed of evaluation, but it is possible to conclude the speed
+of search for a present element in an array and non-present.
